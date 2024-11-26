@@ -1,0 +1,23 @@
+.form {
+    max-width: 400px;
+    margin: auto;
+  
+    input, textarea, button {
+      display: block;
+      width: 100%;
+      margin-bottom: $spacing-unit;
+      padding: 0.5rem;
+    }
+  
+    button {
+      background-color: $secondary-color;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: darken($secondary-color, 10%);
+      }
+    }
+  }
+  

@@ -1,0 +1,32 @@
+// 1. Import Variables
+@import 'styles/variables'; // Colors, fonts, and other variables
+
+// 2. Import Mixins
+@import 'styles/mixins'; // Reusable SCSS mixins
+
+// 3. Import Base Styles
+@import 'styles/reset'; // Reset or normalize styles
+@import 'styles/base';  // Base styles like typography and body styles
+
+// 4. Import Components
+@import 'components/header';
+@import 'components/footer';
+@import 'components/buttons';
+@import 'components/cards';
+
+// 5. Import Layouts
+@import 'layouts/grid';
+@import 'layouts/forms';
+@import 'layouts/sidebar';
+
+// 6. Import Pages (Optional)
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/contact';
+
+// 7. Global Styles
+body {
+  background-color: $primary-bg-color; // Example of a global style
+  font-family: $primary-font-family;
+  color: $primary-text-color;
+}
